@@ -1,0 +1,44 @@
+{
+    "header": {
+        "title": "تطبيق إلكترولكس",
+        "cart": {
+            "items": "عناصر السلة:",
+            "preview": "معاينة السلة",
+            "empty": "سلة التسوق فارغة.",
+            "quantity": "الكمية",
+            "viewFull": "عرض السلة كاملة",
+            "item": "عنصر",
+            "items": "عناصر"
+        }
+    },
+    "language": {
+        "select": "اختر اللغة",
+        "english": "الإنجليزية",
+        "spanish": "الإسبانية",
+        "french": "الفرنسية",
+        "arabic": "العربية"
+    },
+    "cart": {
+        "empty": {
+            "title": "سلة التسوق فارغة",
+            "description": "أضف منتجات إلى سلتك وستراها مدرجة هنا.",
+            "continueShopping": "مواصلة التسوق"
+        },
+        "summary": {
+            "title": "سلة التسوق",
+            "productsInCart": "المنتجات في السلة",
+            "totalQuantity": "إجمالي الكمية",
+            "continueShopping": "مواصلة التسوق",
+            "orderSummary": "ملخص الطلب",
+            "estimatedTotal": "الإجمالي التقديري",
+            "items": "عناصر",
+            "each": "لكل واحد",
+            "total": "الإجمالي:",
+            "remove": "إزالة",
+            "proceedToCheckout": "المتابعة لإتمام الشراء"
+        }
+    },
+    "productPage": {
+        "productTitle": "المنتجات"
+    }
+}

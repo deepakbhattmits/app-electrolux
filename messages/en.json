@@ -1,0 +1,44 @@
+{
+    "header": {
+        "title": "App Electrolux",
+        "cart": {
+            "items": "Cart items:",
+            "preview": "Cart preview",
+            "empty": "Your cart is empty.",
+            "quantity": "Qty",
+            "viewFull": "View full cart",
+            "item": "item",
+            "items": "items"
+        }
+    },
+    "language": {
+        "select": "Select Language",
+        "english": "English",
+        "spanish": "Spanish",
+        "french": "French",
+        "arabic": "Arabic"
+    },
+    "cart": {
+        "empty": {
+            "title": "Your cart is empty",
+            "description": "Add products to your cart and you'll see them listed here.",
+            "continueShopping": "Continue shopping"
+        },
+        "summary": {
+            "title": "Shopping cart",
+            "productsInCart": "Products in cart",
+            "totalQuantity": "Total quantity",
+            "continueShopping": "Continue shopping",
+            "orderSummary": "Order summary",
+            "estimatedTotal": "Estimated total",
+            "items": "Items",
+            "each": "each",
+            "total": "Total:",
+            "remove": "Remove",
+            "proceedToCheckout": "Proceed to checkout"
+        }
+    },
+    "productPage": {
+        "productTitle": "Products"
+    }
+}

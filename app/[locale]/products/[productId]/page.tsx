@@ -1,10 +1,10 @@
 import Link from "next/link";
-import AddToCartButton from "../../components/AddToCartButton";
-import ProductImageMagnifier from "../../components/ProductImageMagnifier";
+import AddToCartButton from "../../../components/AddToCartButton";
+import ProductImageMagnifier from "../../../components/ProductImageMagnifier";
 import type { Metadata } from "next";
-import { fetchProductById, type Product } from "../../lib/api";
+import { fetchProductById, type Product } from "../../../lib/api";
 
-export async function generateMetadata({ params }: { params: Promise<{ productId: string }> }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; productId: string }> }): Promise<Metadata> {
     const { productId } = await params;
 
     try {
@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ productId
     }
 }
 
-export default async function ProductPage({ params }: { params: Promise<{ productId: string }> }) {
-    const { productId } = await params;
+export default async function ProductPage({ params }: { params: Promise<{ locale: string; productId: string }> }) {
+    const { locale, productId } = await params;
     let product: Product | null = null;
 
     try {
@@ -43,7 +43,7 @@ export default async function ProductPage({ params }: { params: Promise<{ produc
                             <h1 className="mt-2 text-4xl font-semibold text-zinc-950">{product.title}</h1>
                         </div>
                         <Link
-                            href="/"
+                            href={`/${locale}`}
                             className="rounded-full bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-900 transition hover:bg-zinc-200"
                         >
                             Back to products

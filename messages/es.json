@@ -1,0 +1,44 @@
+{
+  "header": {
+    "title": "Aplicación Electrolux",
+    "cart": {
+      "items": "Artículos del carrito:",
+      "preview": "Vista previa del carrito",
+      "empty": "Tu carrito está vacío.",
+      "quantity": "Cant",
+      "viewFull": "Ver carrito completo",
+      "item": "artículo",
+      "items": "artículos"
+    }
+  },
+  "language": {
+    "select": "Seleccionar Idioma",
+    "english": "Inglés",
+    "spanish": "Español",
+    "french": "Francés",
+    "arabic": "Árabe"
+  },
+  "cart": {
+    "empty": {
+      "title": "Tu carrito está vacío",
+      "description": "Agrega productos a tu carrito y los verás listados aquí.",
+      "continueShopping": "Continuar comprando"
+    },
+    "summary": {
+      "title": "Carrito de compras",
+      "productsInCart": "Productos en el carrito",
+      "totalQuantity": "Cantidad total",
+      "continueShopping": "Continuar comprando",
+      "orderSummary": "Resumen del pedido",
+      "estimatedTotal": "Total estimado",
+      "items": "Artículos",
+      "each": "cada uno",
+      "total": "Total:",
+      "remove": "Eliminar",
+      "proceedToCheckout": "Proceder al pago"
+    }
+  },
+  "productPage": {
+    "productTitle": "Productos"
+  }
+}
